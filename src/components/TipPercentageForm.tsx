@@ -23,8 +23,23 @@ const tipOptions = [
 export default function TipPercentageForm() {
   return (
     <>
-      <div>
+      <div className="font-black text-2xl">
+        <h3>Propinas</h3>
         Percentage Form
+        <form >
+            {tipOptions.map(tipOptions=>(
+                <div key={tipOptions.id} className="flex gap-2">
+
+
+                </div>
+
+//l144469
+
+
+            ))}
+
+
+        </form>
       </div>
     </>
   )
